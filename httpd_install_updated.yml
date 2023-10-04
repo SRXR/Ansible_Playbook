@@ -1,0 +1,9 @@
+--- 
+- name: Install HTTPD Package
+  hosts: Test_VM_Inventory
+  become: yes
+  tasks:
+    - name: Install HTTPD Package
+      yum:
+        name: httpd
+        state: present
