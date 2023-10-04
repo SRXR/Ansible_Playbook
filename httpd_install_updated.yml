@@ -1,6 +1,6 @@
 --- 
 - name: Install HTTPD Package
-  hosts: Test_VM_Inventory
+  hosts: 10.50.0.21
   become: yes
   tasks:
     - name: Install HTTPD Package
